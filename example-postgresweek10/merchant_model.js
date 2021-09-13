@@ -13,7 +13,7 @@ const getMerchants = () => {
         if (error) {
           reject(error)
         }
-        //console.log(results);
+        console.log("Getting the rows from your db");
         resolve(results.rows);
       })
     }) 
